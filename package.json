@@ -1,0 +1,32 @@
+{
+  "name": "git-gan",
+  "version": "0.0.1",
+  "description": "A shorthand for git command",
+  "bin": {
+    "gan": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpman/git-gan.git"
+  },
+  "keywords": [
+    "git",
+    "shorthand"
+  ],
+  "author": "kpman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kpman/git-gan/issues"
+  },
+  "homepage": "https://github.com/kpman/git-gan#readme",
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
