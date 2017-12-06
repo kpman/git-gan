@@ -1,6 +1,6 @@
 {
   "name": "git-gan",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A shorthand for git command",
   "bin": {
     "gan": "index.js"
@@ -18,7 +18,8 @@
   },
   "keywords": [
     "git",
-    "shorthand"
+    "shorthand",
+    "command"
   ],
   "author": "kpman",
   "license": "MIT",
