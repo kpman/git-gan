@@ -9,4 +9,6 @@ if (!shell.which('git')) {
 
 shell.exec('git add -A');
 shell.exec('git commit --amend --no-edit');
-shell.exec('git push origin $(git branch | sed -n -e "s/^* (.*)/\1/p") -f');
+shell.exec(
+  'git push origin $(git branch | grep * | cut -d " " -f2) --force-with-lease'
+);
