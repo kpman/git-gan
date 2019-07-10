@@ -1,6 +1,6 @@
 {
   "name": "git-gan",
-  "version": "0.1.2-0",
+  "version": "0.1.2",
   "description": "A shorthand for git command",
   "bin": {
     "gan": "index.js"
