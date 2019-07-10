@@ -10,5 +10,5 @@ if (!shell.which('git')) {
 shell.exec('git add -A');
 shell.exec('git commit --amend --no-edit');
 shell.exec(
-  'git push origin $(git branch | grep * | cut -d " " -f2) --force-with-lease'
+  'git push origin $(git branch | grep "*" | cut -d " " -f2) --force-with-lease'
 );
